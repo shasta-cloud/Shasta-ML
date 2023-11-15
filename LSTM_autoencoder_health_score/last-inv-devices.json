@@ -1,0 +1,3696 @@
+[
+  {
+    "contact": "",
+    "created": 1676567469,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_ecs4100-12ph",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "e7a741c4-4ea2-4ae2-889e-a9b4fe1cbc80",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "da77165e-26b8-4d7d-99e5-4f0025b8add7",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677231418,
+    "name": "Kawaii Switch",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "000000000000",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "e7a741c4-4ea2-4ae2-889e-a9b4fe1cbc80"
+  },
+  {
+    "contact": "",
+    "created": 1676608755,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_ecs4100-12ph",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {},
+    "geoCode": "",
+    "id": "5f500177-9b1a-458a-9de3-a5dc06b5d831",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677236608,
+    "name": "Hospital Switch",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "000000000001",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": ""
+  },
+  {
+    "contact": "",
+    "created": 1694085152,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "x86_64-accton_as4630_54pe-r0",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "ca3dd068-aacc-4615-b979-719df67b0d98",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "e0172cd4-9b92-4304-8d64-b022fe4f8aff",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1694085152,
+    "name": "test",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "000102030405",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "ca3dd068-aacc-4615-b979-719df67b0d98"
+  },
+  {
+    "contact": "",
+    "created": 1677589651,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "2ffaa2df-8677-45ed-b7a2-be618eec46bb",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f7850ba8-45b0-468c-b55f-85f2ca157515",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1684152784,
+    "name": "AP-0013ac42671b",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013aa42671b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "2ffaa2df-8677-45ed-b7a2-be618eec46bb"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "0e086caa-7e2f-4144-8da7-3c5de910a159",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP1000",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41672b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "636cf986-f208-43c6-a727-02a0a45b36dc",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP999",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41673b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "3f3b8b10-7bfc-450a-8308-6d5f582f7002",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP998",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41674b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "64b996d5-32dc-41e8-82c8-3c45a7124bfc",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP997",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41675b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235449,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "c10f4ca8-e258-4b21-84de-b0e3d9b5208d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235449,
+    "name": "AP996",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41676b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "5a26fc1d-a3c5-4210-97db-65bd4dd56b0e",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP995",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41677b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "aafb0ee9-3511-46d6-aa8f-f2f2a216627b",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP994",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41678b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235450,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "d223d64d-9fae-41a4-98b9-e0f830c199fd",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235450,
+    "name": "AP993",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41679b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235448,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "6b113751-b7c8-42fc-9517-8a0638bf0a53",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235448,
+    "name": "AP992",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41680b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235449,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f2d7f02e-7a71-4e12-ba08-d7d00a22dfa3",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235449,
+    "name": "AP991",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41681b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235448,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ba69fcc3-d4e8-4527-913f-cd737e19ef92",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235448,
+    "name": "AP990",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41682b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235448,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "d58048fc-bc2b-4a8f-a191-3de946086c01",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235448,
+    "name": "AP989",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41683b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235448,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "6e2326b3-43f1-402d-aa4e-613e14e38aff",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235448,
+    "name": "AP988",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41684b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235448,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "cb95ac3f-9126-4f1b-ae3e-d539977e582c",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235448,
+    "name": "AP987",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41685b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235447,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "1747c6fa-b031-4bc8-981e-98c72fad89c4",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235447,
+    "name": "AP986",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41686b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235447,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "20ed03a7-0d10-4bc5-b416-8ed32ea29e1b",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235447,
+    "name": "AP985",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41687b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235447,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "3d3042c1-9a52-4ede-b5de-2902af74dffc",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235447,
+    "name": "AP984",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41688b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235446,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "27331ef3-281f-4bc2-b5a6-09b2591e2b12",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235446,
+    "name": "AP983",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41689b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235446,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f7b8661d-5fda-4abe-8ca8-417324d9bbdc",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235446,
+    "name": "AP982",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41690b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235446,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "e9478331-439d-4345-ad19-04056d0ff5b6",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235446,
+    "name": "AP981",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41691b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235447,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f2cad344-cfb2-4cd3-bce9-f7978b4f0d87",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235447,
+    "name": "AP980",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41692b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235447,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "3787cc7b-33b1-40ad-b0f3-ea2168f6f578",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235447,
+    "name": "AP979",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41693b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235446,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "0fce53f5-177c-4445-93ac-b5ec76ff3a5d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235446,
+    "name": "AP978",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41694b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ce020f82-6d28-409a-a79a-2c47db15dc2d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP977",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41695b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235446,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "9b34fe39-36be-4dfb-99d3-0ecec7f9a62d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235446,
+    "name": "AP976",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41696b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "67ee0972-5f6c-48ed-bd66-eddc0ec4393d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP975",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41697b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "8d8cc013-a3d4-4262-9556-650104af4529",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP974",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41698b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "7cdc1613-4a9a-4e11-91af-e80a0ddfc186",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP973",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41699b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "185082bb-2b18-4dea-9f39-ec5c1d0cefee",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP972",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41700b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "1a42fd64-d598-42ca-a856-bd295cc410ef",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP971",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41701b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ea10bea5-95ed-4b8c-84fb-6c6f1a05ac8f",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP970",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41702b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "47dfecd6-7760-4e8f-bf24-998389df15f6",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP969",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41703b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235445,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "15a9e1a9-83fa-43b0-93a2-3592b6a2dfdd",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235445,
+    "name": "AP968",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41704b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "78089020-92cc-4a73-99cf-4b216ef5f9c8",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP967",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41705b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "947dfa8b-0e45-4a99-89ce-06259c71b0ce",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP966",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41706b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "fdcc4707-9ba8-4c3d-92dd-867bf092ef1b",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP965",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41707b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "12def9db-cada-42c1-a735-7a0427f92723",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP964",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41708b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235443,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "af2bd916-515f-40c1-9d84-d11415be4f78",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235443,
+    "name": "AP963",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41709b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "bdfa9abe-af25-429b-ab1a-b3e0cbc77faf",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP962",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41710b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "0bba48b7-756f-4504-b487-39916ca547f3",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP961",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41711b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "0be4195f-3807-4206-a9d8-2504998111a5",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP960",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41712b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235443,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "6c1487d5-d58f-45b5-aa9e-111122f6f066",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235443,
+    "name": "AP959",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41713b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235444,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "e9c82372-5bcd-4927-a83c-38d410c3f250",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235444,
+    "name": "AP958",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41714b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235443,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ce1a7398-ef44-4815-b956-e338bc05a4cb",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235443,
+    "name": "AP957",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41715b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235443,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "0b4f8c08-f092-4a7e-9ffa-f656c9397b89",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235443,
+    "name": "AP956",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41716b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235443,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "e3b7146a-0682-4329-b9a9-0dde21b184ed",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235443,
+    "name": "AP955",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41717b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "797c720b-c267-4d48-aa61-3228aa378e06",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP954",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41718b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "de2434b9-1106-4ce7-b0a0-1bab018a0de4",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP953",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41719b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "45e75f6c-29c2-4b19-bebc-9dccc8d4b052",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP952",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41720b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "58209692-5f6c-4645-94ac-da157ea907e9",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP951",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41721b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235443,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "1c0bcefd-cda1-41df-832b-1c955dc328ad",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235443,
+    "name": "AP950",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41722b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "4d025e2f-e56c-42eb-b982-889f6c10e7e7",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP949",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41723b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "addf1302-d8a1-42e0-aede-952d5f9f7501",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP948",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41724b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "c523620f-b111-4811-8e18-8cb86ea77728",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP947",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41725b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "eb2f6b78-3af3-4e1c-b0fb-2e36be1e0c6c",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP946",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41726b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235442,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "1d420532-6747-452d-afca-24e585d8f8c9",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235442,
+    "name": "AP945",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41727b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "1ae4cdfd-8b7a-4182-ba1e-e92162671e4d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP944",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41728b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "63f180ec-891f-4294-8997-23b8a954224e",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP943",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41729b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "4a491429-f65f-4938-b909-153c5377b3f5",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP942",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41730b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "fe72119b-ab26-4fed-9ef5-6882851e9d32",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP941",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41731b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "7ce7bc8a-9715-424c-bd09-00c3a24c2f90",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP940",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41732b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "93e57909-a11d-4d85-86b0-725f67aa6be4",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP939",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41733b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "e2eb368d-683b-41ea-ba57-7ce32edd71aa",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP938",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41734b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "3a959f77-d0d0-4da0-97b1-7e3a08624f30",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP937",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41735b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ed1a8b42-0839-4326-84c7-777625b91c8f",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP936",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41736b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "a8ccf06d-e48d-42e2-b7cf-786095154963",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP935",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41737b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235441,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "1108ceea-c402-4dda-999d-cad22712c431",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235441,
+    "name": "AP934",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41738b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "7dde4cbf-dc3c-4ae4-ae8d-21095e5ab958",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP933",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41739b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "6ae764a0-8466-4d8a-bb4d-37bde28a4d10",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP932",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41740b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "656d5542-553a-49a7-92a7-ce428b516122",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP931",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41741b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f04aeae8-a0d2-45ee-bb61-9b9be930d501",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP930",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41742b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235440,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "aead54ec-c568-466a-a145-397144beba09",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235440,
+    "name": "AP929",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41743b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235439,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "fa8a5ea5-67a0-432f-a964-e1df58ab808c",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235439,
+    "name": "AP928",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41744b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "73012120-c8a3-41e4-b0ba-cc31d3e8408d",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP927",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41745b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "bbc76fe5-450e-4860-9f52-186bbfdd432a",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP926",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41746b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235439,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f9c6b2c2-4a04-4e1d-9b42-63bd14289b84",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235439,
+    "name": "AP925",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41747b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "bdf93f81-86de-4468-aef7-301a23230d5b",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP924",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41748b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "371cc989-362c-41bd-a039-4a60e8b775e3",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP923",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41749b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "a32e4139-fcbc-4cdb-9963-f23d79f3be0c",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP922",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41750b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235439,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "a4179490-2d66-4de1-970a-6741bed34b75",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235439,
+    "name": "AP921",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41751b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "80473569-4ac0-45c1-9a25-22087a455d86",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP920",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41752b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235438,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "8b5d68c8-a89c-40b4-9123-8de6f9f0c28c",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235438,
+    "name": "AP919",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41753b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235437,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "48119dbd-22b9-47fe-97b3-63cbe97863c7",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235437,
+    "name": "AP918",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41754b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "e7d080e9-c3a2-48f8-8b97-10fc1cbaeb03",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP917",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41755b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "acf471e5-707f-4fb2-ad87-699395da5c08",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP916",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41756b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "87132b0f-8645-4003-9665-4fac2db24927",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP915",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41757b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235437,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "f1424688-a6c8-4529-9b0c-99d87df5cc30",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235437,
+    "name": "AP914",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41758b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "001dc2e9-e548-4c9c-b7b2-524dacc2623a",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP913",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41759b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "9a103b2d-9d4b-4e21-9017-66c8a44aeb56",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP912",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41760b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235437,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ab178b65-8037-4ee3-832e-e7b2cdd31632",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235437,
+    "name": "AP911",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41761b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "ad578da8-0a96-4047-8875-b0930318d729",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP910",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41762b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235436,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "0600c81d-25a9-433e-929f-d87c173e72bd",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235436,
+    "name": "AP909",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41763b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235435,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "a4f9d535-2d87-4a9f-a485-bc10c4639025",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235435,
+    "name": "AP908",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41764b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235435,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "39307908-394a-4d89-b8b6-a79ac266a5e7",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235435,
+    "name": "AP907",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41765b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235435,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap101",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "47f3adee-622b-4240-92b3-8244b4a2e334",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235435,
+    "name": "AP906",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41766b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  },
+  {
+    "contact": "",
+    "created": 1677235435,
+    "description": "",
+    "devClass": "any",
+    "deviceConfiguration": "",
+    "deviceRules": {
+      "firmwareUpgrade": "inherit",
+      "rcOnly": "inherit",
+      "rrm": "inherit"
+    },
+    "deviceType": "edgecore_eap102",
+    "doNotAllowOverrides": false,
+    "entity": "",
+    "extendedInfo": {
+      "venue": {
+        "description": "",
+        "id": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c",
+        "name": "Default Venue"
+      }
+    },
+    "geoCode": "",
+    "id": "429fcd25-7f36-492e-8e10-3a1ad1739379",
+    "locale": "",
+    "location": "",
+    "managementPolicy": "",
+    "modified": 1677235435,
+    "name": "AP905",
+    "notes": [],
+    "qrCode": "",
+    "realMacAddress": "",
+    "serialNumber": "0013ac41767b",
+    "state": "",
+    "subscriber": "",
+    "tags": [],
+    "venue": "c22cfe23-c003-44b1-b0a4-c1ac2bf92c3c"
+  }
+]

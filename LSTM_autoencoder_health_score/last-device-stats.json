@@ -1,0 +1,382 @@
+{
+  "interfaces": [
+    {
+      "clients": [
+        {
+          "ipv4_addresses": [
+            "192.168.2.198"
+          ],
+          "last_seen": 1,
+          "mac": "08:5b:d6:a8:55:5c",
+          "ports": [
+            "WAN"
+          ]
+        },
+        {
+          "ipv4_addresses": [
+            "192.168.2.167"
+          ],
+          "last_seen": 0,
+          "mac": "5c:c5:63:59:d3:91",
+          "ports": [
+            "WAN"
+          ]
+        },
+        {
+          "ipv4_addresses": [
+            "192.168.2.1"
+          ],
+          "last_seen": 0,
+          "mac": "74:da:88:1c:a7:70",
+          "ports": [
+            "WAN"
+          ]
+        },
+        {
+          "ipv4_addresses": [
+            "192.168.2.178"
+          ],
+          "ipv6_addresses": [
+            "fe80:0:0:0:923c:b3ff:febb:2755"
+          ],
+          "last_seen": 0,
+          "mac": "90:3c:b3:bb:27:55",
+          "ports": [
+            "WAN"
+          ]
+        },
+        {
+          "ipv4_addresses": [
+            "192.168.2.103"
+          ],
+          "ipv6_addresses": [
+            "fe80:0:0:0:bcb3:a5ff:fec8:685"
+          ],
+          "last_seen": 0,
+          "mac": "be:b3:a5:c8:06:85",
+          "ports": [
+            "WAN"
+          ]
+        },
+        {
+          "ipv4_addresses": [
+            "192.168.2.149"
+          ],
+          "ipv6_addresses": [
+            "fe80:0:0:0:f2b0:40ff:fea2:58a5"
+          ],
+          "last_seen": 0,
+          "mac": "f0:b0:40:a2:58:a5",
+          "ports": [
+            "WAN"
+          ]
+        },
+        {
+          "ipv4_addresses": [
+            "192.168.2.174"
+          ],
+          "last_seen": 0,
+          "mac": "f0:b6:1e:5c:fd:0a",
+          "ports": [
+            "WAN"
+          ]
+        }
+      ],
+      "counters": {
+        "collisions": 0,
+        "multicast": 193136,
+        "rx_bytes": 0,
+        "rx_dropped": 0,
+        "rx_errors": 0,
+        "rx_packets": 0,
+        "tx_bytes": 0,
+        "tx_dropped": 0,
+        "tx_errors": 0,
+        "tx_packets": 0
+      },
+      "dns_servers": [
+        "192.168.2.1"
+      ],
+      "ipv4": {
+        "addresses": [
+          "192.168.2.185/24"
+        ],
+        "dhcp_server": "192.168.2.1",
+        "leasetime": 7200,
+        "public_ip": "46.116.218.154"
+      },
+      "location": "/interfaces/0",
+      "name": "up0v0",
+      "ssids": [
+        {
+          "band": "5G",
+          "bssid": "90:3c:b3:bb:24:61",
+          "counters": {
+            "collisions": 0,
+            "multicast": 0,
+            "rx_bytes": 809367321,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "rx_packets": 2125704,
+            "tx_bytes": 415373647,
+            "tx_dropped": 0,
+            "tx_errors": 0,
+            "tx_packets": 7949123
+          },
+          "delta_counters": {
+            "collisions": 0,
+            "multicat": 0,
+            "rx_bytes": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "rx_packets": 0,
+            "tx_bytes": 39477,
+            "tx_dropped": 0,
+            "tx_errors": 0,
+            "tx_failed": 0,
+            "tx_packets": 160,
+            "tx_retries": 0
+          },
+          "frequency": [
+            5180,
+            5210
+          ],
+          "iface": "wlan0",
+          "location": "/interfaces/0/ssids/0",
+          "mode": "ap",
+          "phy": "platform/soc/c000000.wifi",
+          "radio": {
+            "$ref": "#/radios/0"
+          },
+          "ssid": "NETWORK_E_Shasta"
+        },
+        {
+          "band": "2G",
+          "bssid": "90:3c:b3:bb:24:60",
+          "counters": {
+            "collisions": 0,
+            "multicast": 0,
+            "rx_bytes": 637898,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "rx_packets": 2756,
+            "tx_bytes": 136257417,
+            "tx_dropped": 0,
+            "tx_errors": 0,
+            "tx_packets": 520973
+          },
+          "delta_counters": {
+            "collisions": 0,
+            "multicat": 0,
+            "rx_bytes": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "rx_packets": 0,
+            "tx_bytes": 39477,
+            "tx_dropped": 0,
+            "tx_errors": 0,
+            "tx_failed": 0,
+            "tx_packets": 160,
+            "tx_retries": 0
+          },
+          "frequency": [
+            2462
+          ],
+          "iface": "wlan1",
+          "location": "/interfaces/0/ssids/0",
+          "mode": "ap",
+          "phy": "platform/soc/c000000.wifi+1",
+          "radio": {
+            "$ref": "#/radios/1"
+          },
+          "ssid": "NETWORK_E_Shasta"
+        }
+      ],
+      "uptime": 189929
+    }
+  ],
+  "link-state": {
+    "downstream": {
+      "LAN1": {
+        "carrier": 0,
+        "counters": {
+          "collisions": 0,
+          "multicast": 0,
+          "rx_bytes": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "rx_packets": 0,
+          "tx_bytes": 0,
+          "tx_dropped": 0,
+          "tx_errors": 0,
+          "tx_packets": 0
+        },
+        "delta_counters": {
+          "collisions": 0,
+          "multicat": 0,
+          "rx_bytes": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "rx_packets": 0,
+          "tx_bytes": 0,
+          "tx_dropped": 0,
+          "tx_errors": 0,
+          "tx_failed": 0,
+          "tx_packets": 0,
+          "tx_retries": 0
+        }
+      },
+      "LAN2": {
+        "carrier": 0,
+        "counters": {
+          "collisions": 0,
+          "multicast": 0,
+          "rx_bytes": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "rx_packets": 0,
+          "tx_bytes": 0,
+          "tx_dropped": 0,
+          "tx_errors": 0,
+          "tx_packets": 0
+        },
+        "delta_counters": {
+          "collisions": 0,
+          "multicat": 0,
+          "rx_bytes": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "rx_packets": 0,
+          "tx_bytes": 0,
+          "tx_dropped": 0,
+          "tx_errors": 0,
+          "tx_failed": 0,
+          "tx_packets": 0,
+          "tx_retries": 0
+        }
+      }
+    },
+    "upstream": {
+      "WAN": {
+        "carrier": 1,
+        "counters": {
+          "collisions": 0,
+          "multicast": 537872,
+          "rx_bytes": 928621630,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "rx_packets": 13155154,
+          "tx_bytes": 2206249739,
+          "tx_dropped": 0,
+          "tx_errors": 0,
+          "tx_packets": 11932303
+        },
+        "delta_counters": {
+          "collisions": 0,
+          "multicat": 0,
+          "rx_bytes": 88880,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "rx_packets": 324,
+          "tx_bytes": 67383,
+          "tx_dropped": 0,
+          "tx_errors": 0,
+          "tx_failed": 0,
+          "tx_packets": 117,
+          "tx_retries": 0
+        },
+        "duplex": "full",
+        "speed": 1000
+      }
+    }
+  },
+  "lldp-peers": {
+    "downstream": {},
+    "upstream": {
+      "WAN": [
+        {
+          "capability": [
+            "Bridge",
+            "Router",
+            "Wlan"
+          ],
+          "description": "Shasta AP - Name: Efi1, Model: EAP-101, Venue: Efi Dev, Required VLANs: [0]",
+          "mac": "90:3c:b3:bb:27:55",
+          "management_ips": [
+            "192.168.2.178",
+            "fe80::3c3b:8cff:fe18:f58b"
+          ],
+          "name": "EdgeCore EAP101",
+          "port_descr": "eth0",
+          "port_id": "90:3c:b3:bb:27:55"
+        }
+      ]
+    }
+  },
+  "radios": [
+    {
+      "band": [
+        "5G"
+      ],
+      "channel": 36,
+      "channel_width": 80,
+      "channels": [
+        36,
+        42
+      ],
+      "frequency": [
+        5180,
+        5210
+      ],
+      "phy": "platform/soc/c000000.wifi",
+      "survey": [],
+      "temperature": 40,
+      "tx_power": 23
+    },
+    {
+      "band": [
+        "2G"
+      ],
+      "channel": 11,
+      "channel_width": 20,
+      "channels": [
+        11
+      ],
+      "frequency": [
+        2462
+      ],
+      "phy": "platform/soc/c000000.wifi+1",
+      "survey": [],
+      "temperature": 44,
+      "tx_power": 27
+    }
+  ],
+  "unit": {
+    "boottime": 1699872373,
+    "cpu_load": [
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "load": [
+      0,
+      0,
+      0
+    ],
+    "localtime": 1700062331,
+    "memory": {
+      "buffered": 9072640,
+      "cached": 26488832,
+      "free": 799809536,
+      "total": 973131776
+    },
+    "temperature": [
+      46,
+      47
+    ],
+    "uptime": 189959
+  },
+  "version": 1
+}

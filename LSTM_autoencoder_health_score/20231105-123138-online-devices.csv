@@ -1,0 +1,10 @@
+mac,name,org,venue,model,firmware,uptime,up_days,cpu_busy_pct,cpu_load_1m,cpu_load_5m,cpu_load_15m,mem_used_pct,mem_free_pct,num_ifaces,num_ssids,num_assocs,chan_2g,width_2g,chan_5g,width_5g,chan_6g,width_6g,conf_2g,conf_5g,conf_6g
+04b6be139c68,unknown,unknown,unknown,cig_wf196,Shasta-AP-NOS Rel 1.6 build 8,160687,1.86,1,0.001465,0.010254,0,16.48,83.52,1,4,0,1,20,157,40,0,0,auto,auto,1
+903cb36c410d,unknown,unknown,unknown,edgecore_eap101,Shasta-AP-NOS Rel 1.6 build 8,152165,1.76,1,0,0,0,17.46,82.54,1,4,3,11,20,157,40,0,0,auto,auto,unknown
+903cb3bb1d23,unknown,unknown,unknown,edgecore_eap101,Shasta-AP-NOS Rel 1.6 build 8,79248,0.92,1,0.061524,0.025879,0.005371,17.11,82.89,1,2,0,11,20,44,40,0,0,auto,auto,unknown
+903cb3bb245d,unknown,unknown,unknown,unknown,Shasta-AP-NOS Rel 1.6 build 5,1574330,18.22,1,0,0,0,17.86,82.14,1,4,0,1,20,44,40,0,0,auto,auto,unknown
+903cb3bb2755,unknown,unknown,unknown,unknown,Shasta-AP-NOS Rel 1.5 build 39,2935837,33.98,1,0,0.003418,0,18.25,81.75,1,4,0,11,20,116,40,0,0,auto,auto,unknown
+d077ce37ac02,unknown,unknown,unknown,x86_64-accton_as4630_54pe-r0,SONiC-OS-4.1.0_880f5f3bce70_02MAY2023,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,unknown,unknown,unknown
+d4babaa13aa0,unknown,unknown,unknown,cig_wf196,Shasta-AP-NOS Rel 1.6 build 8,57853,0.67,2,0.016602,0.020996,0,15.4,84.6,2,2,0,11,20,44,40,0,0,auto,auto,auto
+d4babaa13daa,unknown,unknown,unknown,cig_wf188n,Shasta-AP-NOS Rel 1.6 build 8,57867,0.67,2,0,0,0,37.85,62.15,2,2,0,1,20,157,40,0,0,auto,auto,auto
+e49d73a4199e,unknown,unknown,unknown,unknown,2.8.7.234,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,unknown,unknown,unknown
