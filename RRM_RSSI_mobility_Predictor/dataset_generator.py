@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import random
 
-def generate_rssi_data(num_points=500, base_rssi=-60, trend_strength=0.01, noise_std=2, seasonal_period=50, seasonal_amplitude=3):
+def generate_rssi_data(num_points=3600, base_rssi=-60, trend_strength=0.01, noise_std=2, seasonal_period=500, seasonal_amplitude=5, random_seed=None):
     """
     Generates a synthetic RSSI data set.
     
@@ -14,10 +14,14 @@ def generate_rssi_data(num_points=500, base_rssi=-60, trend_strength=0.01, noise
     - noise_std: The standard deviation of the noise added to the RSSI
     - seasonal_period: Period of the seasonality (how often seasonal fluctuations repeat)
     - seasonal_amplitude: Amplitude of the seasonal fluctuations
+    - random_seed: Seed for the random number generator (optional)
     
     Returns:
     - A NumPy array of generated RSSI values
     """
+    if random_seed is not None:
+        np.random.seed(random_seed)
+    
     time = np.arange(num_points)
     trend = trend_strength * time
     seasonal = seasonal_amplitude * np.sin(2 * np.pi * time / seasonal_period)

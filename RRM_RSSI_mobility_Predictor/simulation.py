@@ -14,8 +14,6 @@ from sklearn.metrics import mean_squared_error
 # Simple Exponential Smoothing (SES)
 def exponential_smoothing(data, alpha):
     print(f"Running exponential_smoothing with alpha: {alpha}")
-    print(f"Type of data in exponential_smoothing: {type(data)}")
-    print(f"First 10 elements of data in exponential_smoothing: {data[:10]}")
     smoothed_data = [0] * len(data)
     smoothed_data[0] = data[0]
     for t in range(1, len(data)):
@@ -56,6 +54,11 @@ def lstm_model(data, input_shape, output_shape):
     X, y = np.array(X), np.array(y)
     X = X.reshape((X.shape[0], X.shape[1], 1))
 
+    # Split the data into training and validation sets
+    train_size = int(len(X) * 0.8)
+    X_train, X_val = X[:train_size], X[train_size:]
+    y_train, y_val = y[:train_size], y[train_size:]
+
     # Define the LSTM model
     model = Sequential()
     model.add(LSTM(50, return_sequences=True, input_shape=(input_shape, 1)))
@@ -64,7 +67,7 @@ def lstm_model(data, input_shape, output_shape):
     model.compile(optimizer='adam', loss='mean_squared_error')
 
     # Train the LSTM model
-    model.fit(X, y, epochs=20, batch_size=32, verbose=0)
+    model.fit(X_train, y_train, epochs=20, batch_size=32, verbose=0, validation_data=(X_val, y_val))
 
     # Make predictions
     predicted = model.predict(X)
@@ -74,10 +77,11 @@ def lstm_model(data, input_shape, output_shape):
     combined = np.concatenate((data[:input_shape], predicted), axis=0)
     return combined.flatten()
 
+
 # Particle Filter
 def particle_filter(data):
     print(f"Running Particle Filter")
-    num_particles = 100
+    num_particles = 1000
     particles = np.random.choice(data, size=num_particles)
     weights = np.ones(num_particles) / num_particles
     predicted = []
@@ -85,10 +89,12 @@ def particle_filter(data):
     for t in range(1, len(data)):
         particles += np.random.normal(0, 1, size=num_particles)
         weights *= np.exp(-0.5 * (data[t] - particles) ** 2)
-        weights /= np.sum(weights)
-
-        if np.any(np.isnan(weights)):
+        weight_sum = np.sum(weights)
+        
+        if weight_sum == 0 or np.any(np.isnan(weights)):
             weights = np.ones(num_particles) / num_particles
+        else:
+            weights /= weight_sum
 
         indices = np.random.choice(np.arange(num_particles), size=num_particles, p=weights)
         particles = particles[indices]
@@ -99,8 +105,10 @@ def particle_filter(data):
 
 def evaluate_method(method_name, method_func, data, args):
     print(f"Evaluating method: {method_name}")
-    print(f"Type of data: {type(data)}")
-    print(f"First 10 elements of data: {data[:10]}")
     predicted = method_func(data, *args)
     mse = np.mean((np.array(data) - np.array(predicted)) ** 2)
     return method_name, mse, predicted
+
+def run_simulation(method_name, method_func, data, args, result_queue):
+    name, mse, predicted = evaluate_method(method_name, method_func, data, args)
+    result_queue.put((name, mse, predicted))
