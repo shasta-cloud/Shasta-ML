@@ -1,0 +1,248 @@
+import param
+import panel as pn
+import pandas as pd
+import holoviews as hv
+import hvplot.pandas
+hv.extension('bokeh')
+import os
+import glob
+import json
+import subprocess
+import sys
+import numpy as np
+from math import pi
+from bokeh.palettes import Category20c
+from bokeh.plotting import figure
+from bokeh.transform import cumsum
+import psycopg2
+import webbrowser
+import warnings
+import logging
+import tslearn.utils
+import sktime.utils
+from sklearn.preprocessing import StandardScaler
+
+
+os.chdir('SOM_anomaly_detection/config')
+#sys.path.append('/temp_results')
+
+# Global variables for credentials
+global HOST, DBNAME, USER, PASSWORD, PORT
+CRED_CONFIG = 'pipeline-creds.json'
+# Initialize an empty dictionary to hold the credentials
+credentials_dict = {}
+# Mapping dictionary for deployment names
+deployment_mapping = {
+    "dev-timescale-cluster.shastacloud.com": 'DEV',
+    "timescaledbtest.dev01.apps.shastacloud.com": 'DF',
+    'stg_telemetry': 'STG',
+    'prod_telemetry': 'PROD'
+}
+#if (not os.path.exists(CRED_CONFIG)):
+#    raise Exception("[cloudsdk] Error: file %s not found" % CRED_CONFIG)
+with open('pipeline-creds.json', 'r') as file:
+    data = json.load(file)
+    # JSON structure is a list of credentials
+    for item in data:
+        if 'host' in item:
+            host = item['host']
+            deployment = deployment_mapping[host]
+            credentials_dict[deployment] = item
+
+def load_credentials(db):
+    global HOST, DBNAME, USER, PASSWORD, PORT
+    if db not in credentials_dict:
+        print(f"Database credentials for {db} not found in the JSON file.")
+        return -1
+    # Load database credentials from a JSON file
+    credentials = credentials_dict[db]
+    HOST = credentials["host"]
+    DBNAME = credentials["dbname"]
+    USER = credentials["user"]
+    PASSWORD = credentials["password"]
+    PORT = credentials["port"]
+
+# Fetch all table names from the public schema
+def fetch_all_tables_data(deployment):
+    global HOST, DBNAME, USER, PASSWORD, PORT
+    load_credentials(deployment)
+    print("Fetching table names from the public schema...")
+    table_names = []
+    try:
+        conn = psycopg2.connect(host=HOST, dbname=DBNAME, user=USER, password=PASSWORD, port=PORT)
+        print("Connected to the database")
+        with conn.cursor() as cur:
+            cur.execute("SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'")
+            tables = cur.fetchall()
+            for table_name in tables:
+                table_names.append(table_name[0])
+            print("All table names fetched successfully.")
+    except Exception as e:
+        logging.error("Error connecting to the database. Check your credentials.")
+        logging.error(e)
+    finally:
+        if 'conn' in locals():
+            conn.close()
+    return table_names
+
+# Fetch data from a specific table and save it to a local file
+def fetch_table_data_and_save(deployment, table, limit=10000):
+    global HOST, DBNAME, USER, PASSWORD, PORT
+    load_credentials(deployment)
+    print(f"Fetching data from table {table}...")
+    try:
+        conn = psycopg2.connect(host=HOST, dbname=DBNAME, user=USER, password=PASSWORD, port=PORT)
+        print("Connected to the database")
+        cmd = f"SELECT * FROM public.{table} LIMIT {limit}"
+        with conn.cursor() as cur:
+            cur.execute(cmd)
+            table_data = cur.fetchall()
+            column_names = [desc[0] for desc in cur.description]
+            df = pd.DataFrame(table_data, columns=column_names)
+            print("Data fetched successfully.")
+            # Save to CSV
+            filename = f"data/{table}.csv"
+            df.to_csv(filename, index=False)
+            print(f"Data saved to {filename}")
+    except Exception as e:
+        logging.error("Error connecting to the database. Check your credentials.")
+        logging.error(e)
+    finally:
+        if 'conn' in locals():
+            conn.close()
+
+# Ensure the data directory exists
+if not os.path.exists('data'):
+    os.makedirs('data')
+
+# Fetch all table names for the deployment
+tables = fetch_all_tables_data('DF')
+
+# Fetch data from each table and combine into one dataset
+
+for table in ['ue_5_m']:
+    table_data = fetch_table_data_and_save('DF', table)
+    print(f"Data fetched from table {table}")
+# Load the combined dataset
+data = table_data
+
+# Check if data is empty
+if data.empty:
+    raise ValueError("The combined dataset is empty. Please check the data fetching process.")
+
+# Preprocess the data (e.g., normalize, handle missing values, etc.)
+# Assuming the data is already preprocessed for simplicity
+# Here we normalize the data
+scaler = StandardScaler()
+data_array = scaler.fit_transform(data.values)
+
+# Define the AnomalyDetection class
+class AnomalyDetection(KohonenSom):
+    """"
+    This class uses provides an specific implementation of Kohonnen Som for anomaly detection.
+    """
+
+    def __init__(
+        self,
+        shape,
+        input_size,
+        learning_rate,
+        learning_decay=0.1,
+        initial_radius=1,
+        radius_decay=0.1,
+        min_number_per_bmu=1,
+        number_of_neighbors=3,
+    ):
+        super(AnomalyDetection, self).__init__(
+            shape,
+            input_size,
+            learning_rate,
+            learning_decay,
+            initial_radius,
+            radius_decay,
+        )
+
+        self.minNumberPerBmu = min_number_per_bmu
+        self.numberOfNeighbors = number_of_neighbors
+        return
+
+    def get_bmu_counts(self, training_data):
+        """
+        This functions maps a training set to the fitted network and evaluates for each
+        node in the SOM the number of evaluations mapped to that node. This gives counts per BMU.
+        :param training_data: numpy array of training data
+        :return: An array of the same shape as the network with the best matching units.
+        """
+        bmu_counts = np.zeros(shape=self.shape)
+        for observation in training_data:
+            bmu = self.get_bmu(observation)
+            bmu_counts[bmu] += 1
+        return bmu_counts
+
+    def fit(self, training_data, num_iterations):
+        """
+        This function fits the anomaly detection model to some training data.
+        It removes nodes that are too sparse by the minNumberPerBmu threshold.
+        :param training_data: numpy array of training data
+        :param num_iterations: number of iterations allowed for training
+        :return: A vector of allowed nodes
+        """
+        self.reset()
+        super(AnomalyDetection, self).fit(training_data, num_iterations)
+        bmu_counts = self.get_bmu_counts(training_data)
+        self.bmu_counts = bmu_counts.flatten()
+        self.allowed_nodes = self.grid[bmu_counts >= self.minNumberPerBmu]
+        return self.allowed_nodes
+
+    def evaluate(self, evaluationData):
+        """
+        This function maps the evaluation data to the previously fitted network. It calculates the
+        anomaly measure based on the distance between the observation and the K-NN nodes of this
+        observation.
+        :param evaluationData: Numpy array of the data to be evaluated
+        :return: 1D-array with for each observation an anomaly measure
+        """
+        try:
+            self.allowed_nodes
+            assert self.allowed_nodes.shape[0] > 1
+        except NameError:
+            raise Exception(
+                "Make sure the method fit is called before evaluating data."
+            )
+        except AssertionError:
+            raise Exception(
+                "There are no nodes satisfying the minimum criterium, algorithm cannot proceed."
+            )
+        else:
+            classifier = NearestNeighbors(n_neighbors=self.numberOfNeighbors)
+            classifier.fit(self.allowed_nodes)
+            dist, _ = classifier.kneighbors(evaluationData)
+        return dist.mean(axis=1)
+
+# Initialize the SOM model
+som = AnomalyDetection(
+    shape=(10, 10),  # Adjust the shape as needed
+    input_size=data_array.shape[1],
+    learning_rate=0.5,
+    learning_decay=0.1,
+    initial_radius=1,
+    radius_decay=0.1,
+    min_number_per_bmu=1,
+    number_of_neighbors=3
+)
+
+# Fit the SOM model to the data
+som.fit(data_array, num_iterations=100)
+
+# Evaluate the data for anomalies
+anomaly_scores = som.evaluate(data_array)
+
+# Plot the results
+plt.figure(figsize=(10, 6))
+plt.plot(anomaly_scores, label='Anomaly Score')
+plt.axhline(y=np.mean(anomaly_scores) + 2 * np.std(anomaly_scores), color='r', linestyle='--', label='Anomaly Threshold')
+plt.title('Anomaly Detection using SOM')
+plt.xlabel('Data Point Index')
+plt.ylabel('Anomaly Score')
+plt.legend()
+plt.show()

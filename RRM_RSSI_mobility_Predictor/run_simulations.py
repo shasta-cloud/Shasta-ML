@@ -99,4 +99,4 @@ def run_multiple_simulations(num_runs=10):
     plt.show()
 
 if __name__ == "__main__":
-    run_multiple_simulations(num_runs=1000)
+    run_multiple_simulations(num_runs=100)
