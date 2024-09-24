@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from dataset_generator import generate_rssi_data 
-from simulation import exponential_smoothing, kalman_filter, arima_model, lstm_model, particle_filter, run_simulation
+from RRM_RSSI_mobility_Predictor.simulation_prediction import exponential_smoothing, kalman_filter, arima_model, lstm_model, particle_filter, run_simulation
 import multiprocessing as mp
 
 def run_multiple_simulations(num_runs=10):
