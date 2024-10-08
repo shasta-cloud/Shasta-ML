@@ -1,133 +1,102 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-from matplotlib.animation import PillowWriter
-import multiprocessing as mp
-from sklearn.preprocessing import MinMaxScaler
 from statsmodels.tsa.arima.model import ARIMA
-from pykalman import KalmanFilter
+import warnings
+import matplotlib.pyplot as plt
+import itertools
+from tqdm import tqdm
 
-# Simple Exponential Smoothing (SES)
-def exponential_smoothing(data, alpha, steps=10):
-    smoothed_data = [0] * len(data)
-    smoothed_data[0] = data[0]
-    for t in range(1, len(data)):
-        smoothed_data[t] = alpha * data[t] + (1 - alpha) * smoothed_data[t - 1]
-    
-    # Predict future values
-    future_predictions = [smoothed_data[-1]] * steps
-    return smoothed_data + future_predictions
-
-# Kalman Filter
-def kalman_filter(data, steps=10):
-    kf = KalmanFilter(transition_matrices=[1],
-                      observation_matrices=[1],
-                      initial_state_mean=data[0],
-                      observation_covariance=1,
-                      transition_covariance=0.01)
-    smoothed_state_means, _ = kf.smooth(data)
-    
-    # Predict future values
-    future_predictions = [smoothed_state_means[-1]] * steps
-    return np.concatenate([smoothed_state_means, future_predictions])
+# Suppress warnings
+warnings.filterwarnings("ignore")
 
 # ARIMA model
-def arima_model(data, steps=10):
-    model = ARIMA(data, order=(5, 1, 0))
+def arima_model(train_data, order=(5, 1, 0)):
+    model = ARIMA(train_data, order=order)
     model_fit = model.fit()
-    predicted = model_fit.predict(start=1, end=len(data) + steps, typ='levels')
-    return predicted
+    return model_fit
 
-# Run simulation for a given method
-def run_simulation(name, func, data, args, result_queue):
-    try:
-        predicted = func(data, *args)
-        mse = np.mean((np.array(data) - np.array(predicted[:len(data)])) ** 2)
-        result_queue.put((name, mse, predicted))
-    except Exception as e:
-        result_queue.put((name, float('inf'), []))
-        print(f"Error in {name}: {e}")
-
-def filter_and_predict(mac_address, df, time_window=300, steps=10):
-    # Filter data for the specific MAC address
-    mac_data = df[df['Station MAC'] == mac_address]
-
-    # Check for mobility
-    mac_data['Signal Change'] = mac_data['Avg ACK Signal (dBm)'].diff().abs()
-    mobility_threshold = 5
-    mac_data['Is Moving'] = mac_data['Signal Change'] > mobility_threshold
-
-    if not mac_data['Is Moving'].any():
-        print(f"No mobility detected for MAC address {mac_address}.")
-        return
-
-    # Apply predictors and predict the next time steps
-    rssi_data = mac_data['Avg ACK Signal (dBm)'].values
-
-    # Ensure rssi_data is a list or array
-    if not isinstance(rssi_data, (list, np.ndarray)):
-        raise TypeError("rssi_data should be a list or numpy array")
-
-    # Create a queue to collect results
-    result_queue = mp.Queue()
-
-    # Create and start a process for each method
-    methods = [
-        ("Exponential Smoothing", exponential_smoothing, [0.2]),
-        ("Kalman Filter", kalman_filter, []),
-        ("ARIMA", arima_model, [])
-    ]
-
-    fig, ax = plt.subplots(figsize=(10, 6))
-
-    def animate(i):
-        ax.clear()
-        start = i * steps
-        if start + time_window + steps > len(rssi_data):
-            return
-
-        data_used = rssi_data[start:start + time_window]
-        true_data = rssi_data[start + time_window:start + time_window + steps]
-
-        processes = []
-        for name, func, args in methods:
-            p = mp.Process(target=run_simulation, args=(name, func, data_used, args, result_queue))
-            processes.append(p)
-            p.start()
-
-        # Collect results from all processes
-        results = [result_queue.get() for _ in processes]
-
-        # Ensure all processes have finished
-        for p in processes:
-            p.join()
-
-        for name, mse, predicted in results:
-            if len(predicted) >= time_window + steps:
-                ax.plot(range(start, start + time_window + steps), predicted[:time_window + steps], label=f"{name} (MSE: {mse:.4f})")
-
-        ax.plot(range(start, start + time_window), data_used, label="Data Used", color="blue")
-        ax.plot(range(start + time_window, start + time_window + steps), true_data, label="True Data", color="green")
+def predict_with_arima(train_data, test_data, order=(5, 1, 0), steps=10):
+    predictions = []
+    combined_data = np.concatenate([train_data, test_data])
+    
+    for i in range(0, len(test_data), steps):
+        end_index = min(i + steps, len(test_data))
+        window_data = combined_data[:len(train_data) + i]
         
-        # Highlight the prediction part with true values
-        ax.axvspan(start + time_window, start + time_window + steps, color='yellow', alpha=0.2)
+        # Re-fit the model with the updated data
+        model_fit = arima_model(window_data, order=order)
+        
+        predicted = model_fit.predict(start=len(window_data), end=len(window_data) + steps - 1, typ='levels')
+        
+        predictions.extend(predicted[:end_index - i])
+    
+    return np.array(predictions)
 
-        ax.set_title(f"RSSI Prediction for MAC {mac_address} (Window Start: {start})")
-        ax.set_xlabel("Time")
-        ax.set_ylabel("RSSI")
-        ax.legend()
-
-    ani = animation.FuncAnimation(fig, animate, frames=range(0, len(rssi_data) // steps), repeat=False)
-    ani.save(f'RSSI_prediction_{mac_address}.gif', writer=PillowWriter(fps=2))
-
-if __name__ == "__main__":
-    # Example usage
-    df = pd.read_excel('RSSI_log_Efi_room2.ods', engine='odf')  # Replace with your actual file path
+def main():
+    # Read the CSV file
+    df = pd.read_csv('rssi_log_long.csv')  # Replace with your actual file path
+    # Filter for MAC address 'be:b3:a5:c8:06:85'
+    df = df[df['Station MAC'] == 'be:b3:a5:c8:06:85']
     df['Timestamp'] = pd.to_datetime(df['Timestamp'], errors='coerce')
     df['Avg ACK Signal (dBm)'] = pd.to_numeric(df['Avg ACK Signal (dBm)'], errors='coerce')
     df.dropna(subset=['Avg ACK Signal (dBm)', 'Timestamp'], inplace=True)
 
-    mac_addresses = df['Station MAC'].unique()  # Get all unique MAC addresses
-    for mac_address in mac_addresses:
-        filter_and_predict(mac_address, df, time_window=300, steps=10)
+    # Extract the RSSI data
+    rssi_data = df['Avg ACK Signal (dBm)'].values
+
+    # Split data into training (80%) and testing (20%) sets
+    split_index = int(len(rssi_data) * 0.8)
+    train_data = rssi_data[:split_index]
+    test_data = rssi_data[split_index:]
+
+    # Define the range of parameters for grid search
+    p = range(20, 21, 1)
+    d = range(0, 3)
+    q = range(0, 2)
+    pdq = list(itertools.product(p, d, q))
+
+    best_order = None
+    best_mse = float('inf')
+    mse_results = []
+
+    # Grid search for optimal order parameters with progress bar
+    for idx, order in enumerate(tqdm(pdq, desc="Grid Search")):
+        try:
+            print(f"Evaluating ARIMA order {order} ({idx + 1}/{len(pdq)})")
+            # Train ARIMA model on the training data
+            model_fit = arima_model(train_data, order=order)
+
+            # Predict on the test data
+            predicted_test = predict_with_arima(train_data, test_data, order=order, steps=10)
+
+            # Calculate MSE for all predictions
+            mse = np.mean((test_data[:len(predicted_test)] - predicted_test) ** 2)
+            mse_results.append((order, mse))
+
+            # Print the resulting average MSE for the current order
+            print(f'Order {order} - Average MSE: {mse:.2f}')
+
+            # Update best order if current order has lower average MSE
+            if mse < best_mse:
+                best_mse = mse
+                best_order = order
+
+        except Exception as e:
+            print(f"Error with order {order}: {e}")
+            continue
+
+    print(f'Best ARIMA order: {best_order} with average MSE: {best_mse:.2f}')
+
+    # Plot MSE results for all orders
+    orders, mses = zip(*mse_results)
+    plt.figure(figsize=(14, 7))
+    plt.plot(range(len(mses)), mses, marker='o')
+    plt.xlabel('Order Index')
+    plt.ylabel('Average MSE')
+    plt.title('Average MSE for Different ARIMA Orders')
+    plt.xticks(range(len(orders)), labels=orders, rotation=90)
+    plt.grid(True)
+    plt.show()
+
+if __name__ == "__main__":
+    main()
